@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Slab:wght@900&display=swap");
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: left;
+  font: 12px courier, monospace;
+  padding-top: -60px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.wordart {
+  margin: 0 auto;
+  position: relative;
+  font: 160px "Roboto Slab", serif;
+  transform: scale(0.4);
+}
+.wordart span {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to top, #CBA19E 20%, #9B4941 45%, #FFFFFF 50%, #BBCADD 60%);
+}
+.wordart:before {
+  content: "This is WORDART";
+  position: absolute;
+  z-index: -1;
+  color: transparent;
+  text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000, 5px 5px 0 #000, 6px 6px 0 #000, 7px 7px 0 #000, 8px 8px 0 #000, 9px 9px 0 #000, 10px 10px 0 #000, 11px 11px 0 #000, 12px 12px 0 #000, 13px 13px 0 #000, 14px 14px 0 #000, 15px 15px 0 #000, 16px 16px 0 #000, 17px 17px 0 #000, 18px 18px 0 #000, 19px 19px 0 #000, 20px 20px 0 #000;
+}
